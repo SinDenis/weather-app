@@ -1,1 +1,6 @@
+server:
+  port: ${LISTEN_PORT:8080}
 
+weather:
+  url: https://api.weatherapi.com
+  apiKey: 9c2834955b0d443b969143513230803
